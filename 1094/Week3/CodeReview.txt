@@ -8,3 +8,5 @@ Phase 1 - Naming conventions
 - rename valoare
 
 - remove the hard-coded values aka "magic numbers"
+
+- add validations for input values
