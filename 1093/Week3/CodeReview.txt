@@ -1,0 +1,14 @@
+Code Review
+
+Stage 1. Naming conventions
+
+- rename Clasa1 to something more meaningful
+- rename Calculeaza - use small caps
+- rename the function arguments
+- rename 'rezultat'
+- rename 'valoare'
+- format your code
+
+- remove the hard-coded values aka "magic numbers"
+
+- validate your input values
