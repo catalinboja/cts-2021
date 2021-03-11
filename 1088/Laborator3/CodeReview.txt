@@ -1,0 +1,13 @@
+Code Review
+
+1. Conventii de nume + valori hard-codate (magic numbers)
+- numele clasei nu este ok; nu sugereaza scopul clasei
+- numele functiei nu este ok
+- numele argumentelor functiei nu sunt ok
+- variabila rezultat trebuie redenumita
+- variabila valoare trebuie redenumita
+- numele pachetului nu este ok
+
+- elimina valorile predefinite din functie
+
+- datele de intrare NU sunt validate
