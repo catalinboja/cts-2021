@@ -13,3 +13,4 @@ Stage 1. Naming conventions
 
 - validate your input values
 - replace the if-then-else checks for the productType with switch
+--
