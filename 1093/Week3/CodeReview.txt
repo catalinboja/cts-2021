@@ -13,4 +13,13 @@ Stage 1. Naming conventions
 
 - validate your input values
 - replace the if-then-else checks for the productType with switch
--
+
+Stage 2. KISS, Single Responsibility -> reduce functions complexity
+- remove the switch by using a generic approach for each product type
+- out-source the validations
+- out-source the way the fidelity discount is computed
+
+Stage 3. Dependency Inversion Principle (DIP)
+- remove the dependency regarding the validation of input values
+- remove the dependency on the static values - they are given by the Marketing team
+- remove the dependency on the way the fidelity is computed - Marketing will decide
