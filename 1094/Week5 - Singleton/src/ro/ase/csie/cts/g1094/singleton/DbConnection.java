@@ -20,6 +20,8 @@ public class DbConnection {
 		this.schema = schema;
 	}
 	
+	
+	//lazy-instantiation of the unique object
 	public static DbConnection getConnection() {
 		if(DbConnection.connection == null) {
 			connection = new DbConnection();
