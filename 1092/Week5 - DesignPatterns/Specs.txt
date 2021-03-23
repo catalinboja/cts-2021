@@ -1,0 +1,6 @@
+In order to create an online game (with superheroes), you need to create a software solution that will provide
+
+1. Efficient management of the connection to the Database / logger
+- the different modules must use or link a unique connection to the database
+- programmers implementing those modules cannot build multiple objects associated with the database connection
+- the client must use a unique object to take care of the connection to the database
