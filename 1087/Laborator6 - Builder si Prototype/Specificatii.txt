@@ -1,0 +1,25 @@
+
+Pentru dezvoltarea unui joc online (cu supereroi) sa se dezvolte o solutie software care sa permita
+
+1. Gestiunea eficienta a conexiunii la Baza de Date
+- diferitele module ale clientului trebuie sa foloseasca o singura conexiune 
+- programatorii care implementeaza modulele respective nu trebuie (nu pot) sa construiasca mai multe obiecte asociate conexiunii la baza de date
+- clientul trebuie sa foloseasca un unic obiect care sa ii permita conexiunea la baza de date
+
+2. Crearea de diferite tipuri de caractere din joc
+- in prezent exista 3 tipuri de caractere 	POZITIV, NEGATIV si ALTE_TIPURI
+- jocul fiind in dezvoltare exista riscul ca in viitor sa apara tipuri noi sau cele existente se vor modifica
+- jocul permite alegerea unei teme care influenteaza colectia de personaje; trebuie utilizata o metoda eficienta care sa pemita jocului
+utilizarea oricarei teme fara a modifica major functionalitatea
+
+3. Instantierea supereroului asociat jucatorului
+- acesta are multe atribute pentru a permite particularizarea sa
+- nume, estePozitiv, puncteViata, armaManaStanga, armaManaDreapta, superPutere, esteRanitCritic, superSuperPutere, etc
+- trebuie gasita o solutie eficienta care sa permita crearea supereroului fara a da valori pentru toate atributele 
+dar si fara a permite programatorilor sa omita unele dintre ele
+
+
+4. Toate caracterele au asociat un model grafic 3D
+- in joc pot aparea mai multe instante ale aceluiasi caracter
+- crearea modelului 3D este un proces costisitor deoarece presupune incarcarea si generarea modelului
+- trebuie gasita o solutie eficienta pentru a crea mai multe instante ale aceluiasi caracter
