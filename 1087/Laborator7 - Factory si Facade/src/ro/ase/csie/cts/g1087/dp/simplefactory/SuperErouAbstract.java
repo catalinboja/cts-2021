@@ -4,6 +4,12 @@ public abstract class SuperErouAbstract {
 	String nume;
 	int puncteViata;
 	
+	
+	
+	public void setPuncteViata(int puncteViata) {
+		this.puncteViata = puncteViata;
+	}
+
 	public SuperErouAbstract(String nume, int puncteViata) {
 		super();
 		this.nume = nume;

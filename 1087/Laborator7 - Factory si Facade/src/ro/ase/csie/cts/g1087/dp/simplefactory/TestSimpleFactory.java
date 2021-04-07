@@ -10,6 +10,23 @@ public class TestSimpleFactory {
 		 * CaracterDCComics("Batman", 150);
 		 */
 		
+		boolean selectieTemaUniversala = true;
+		
+		SuperErouAbstract superCaracter = null;
+		
+		if(selectieTemaUniversala) {
+		
+		superCaracter = 
+				FactorySuperErou.getSuperErou(TipErou.DISNEY, "Mickey Mouse");
+		superCaracter = FactorySuperErou.getSuperErou(TipErou.MARVEL, "Spiderman");
+		superCaracter = FactorySuperErou.getSuperErou(TipErou.DC, "Batman");
+		
+		superCaracter.setPuncteViata(100);
+		} else
+		{
+			//folosesti caractere din tema orginala a jocului
+		}
+				
 		
 	}
 
