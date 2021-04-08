@@ -1,0 +1,13 @@
+1. Crearea de diferite tipuri de caractere din joc
+- in prezent exista 3 tipuri de caractere DISNEY, DC si MARVEL
+- jocul fiind in dezvoltare exista riscul ca in viitor sa apara tipuri noi sau cele existente se vor modifica
+- jocul permite alegerea unei teme care influenteaza colectia de personaje; trebuie utilizata o metoda eficienta care sa pemita jocului
+utilizarea oricarei teme fara a modifica major functionalitatea
+
+2. Pentru a permite altor companii sau jucatorilor sa dezvolte solutii externe care sa se conecteze la joc trebuie dezvoltata o librarie (un API)
+- API-ul contine multe clase cu multe detalii
+- nu toate clasele sunt documentate
+- API-ul trebuie sa ofere o interfata simplificata pentru un set de functii de baza
+
+3. Utilizarea unei librarii externe ce contine caractere Disney.
+- in prezent jocul contine caractere proprii ce fac parte din framework-ul ACME
