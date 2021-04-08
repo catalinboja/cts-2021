@@ -1,0 +1,9 @@
+1. Create different weapon types in the game
+- currently there are 3 types of weapons PISTOL, MACHINE_GUN and ROCKET
+- there is a risk that in the future new types will appear or the existing ones will change
+- the game must allow you to choose a theme that influences the weapons collection; You have to use an effective method that allows the game to use any theme without major changes in functionality
+
+2. In order to allow other companies or players to develop external solutions that connect to the game, a library (an API) must be developed.
+- The API contains many classes with many details
+- not all classes are documented
+- The API should provide a simplified interface for a set of basic functions
