@@ -5,10 +5,10 @@ public class TestDecorator {
 	public static void main(String[] args) {
 		
 		AbstractVisualControl butonLogin = new Button("Login", 1);
-		AbstractVisualControl butonGetDate = new Button("Get data", 2);
+		AbstractVisualControl butonGetData = new Button("Get data", 2);
 		
 		butonLogin.click();
-		butonGetDate.click();
+		butonGetData.click();
 		
 		System.out.println("----------------------");
 		
@@ -25,7 +25,7 @@ public class TestDecorator {
 		
 		//add an ad-hoc decorator
 		AbstractVisualControl butonGetDateCuAltSunet = 
-				new AbstractDecoratorForControls(butonGetDate) {
+				new AbstractDecoratorForControls(butonGetData) {
 			@Override
 			public void click() {
 				System.out.println("Zip Zip");
@@ -33,6 +33,10 @@ public class TestDecorator {
 		};
 		butonGetDateCuAltSunet.click();
 		
+		
+		AbstractVisualControl buttonWithAnimAndSound = 
+				new DecoratorWithSoundEffect(butonLoginCuAnimatie, "NewClick.wav");
+		buttonWithAnimAndSound.click();
 		
 	}
 
