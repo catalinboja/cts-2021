@@ -29,4 +29,10 @@ public class Angajat extends NodStructuraIerarhica{
 	public double getSalariu() {
 		return this.salariu;
 	}
+
+	/*
+	 * @Override public void adaugaNodCopil(NodStructuraIerarhica elementStructura)
+	 * { // TODO Auto-generated method stub throw new
+	 * UnsupportedOperationException(); }
+	 */
 }

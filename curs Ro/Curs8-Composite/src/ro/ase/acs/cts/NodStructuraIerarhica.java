@@ -19,6 +19,8 @@ public abstract class NodStructuraIerarhica {
 		throw new UnsupportedOperationException();
 	}
 	
+	//public abstract void adaugaNodCopil(NodStructuraIerarhica elementStructura);
+	
 	//metoda pentru a sterge un nod din structura ierarhica
 	public void stergeNodCopil(NodStructuraIerarhica elementStructura){
 		throw new UnsupportedOperationException();
