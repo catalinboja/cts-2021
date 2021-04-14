@@ -1,0 +1,11 @@
+1. Utilizarea unei librarii externe ce contine caractere Disney.
+- in prezent jocul contine caractere proprii ce fac parte din framework-ul ACME
+
+2. Modificarea in timpul jocului a caracteristicilor unor super-eroi
+- in timpul jocului super-eroii pot fi dotati cu echipamente noi
+- comportamentul super-eroului se poate modifica dinamic in functie de interactiunea cu celelalte caractere din joc
+
+3. Pentru a permite altor companii sau jucatorilor sa dezvolte solutii externe care sa se conecteze la joc trebuie dezvoltata o librarie (un API)
+- API-ul contine multe clase cu multe detalii
+- nu toate clasele sunt documentate
+- API-ul trebuie sa ofere o interfata simplificata pentru un set de functii de baza
