@@ -13,12 +13,14 @@ public class CaracterFantastic extends ACMECaracterJoc {
 
 	@Override
 	public void esteLovit(int puncte) {
+		this.puncteViata -= puncte;
 		System.out.println(String.format("%s este lovit si pierde %d puncte"
 				,nume, puncte));	
 	}
 
 	@Override
 	public void seVindeca(int puncte) {
+		this.puncteViata += puncte;
 		System.out.println(String.format("%s se vindeca si recupereaza %d puncte"
 				,nume, puncte));	
 	}
