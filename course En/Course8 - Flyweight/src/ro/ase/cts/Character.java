@@ -15,7 +15,7 @@ public class Character implements PrintableCharacter{
 	}
 	@Override
 	public void printCharacter(CaracterContext context) {
-		System.out.println(this.character+ " is on location "+context.getPozitie());
+		System.out.println(this.character+ " is on location "+context.getLocation());
 		
 	}
 

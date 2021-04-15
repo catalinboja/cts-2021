@@ -6,20 +6,20 @@ public class TestComposite {
 		
 		//define a department
 		OrganigramStructure departamentIT = 
-				new OrganigramStructure("DepartamentIT", "Departamentul care asigura suportul IT");
+				new OrganigramStructure("DepartamentIT", "IT Department");
 		
 		
 		//define a composite node
-		OrganigramStructure echipaDezvoltare = 
-				new OrganigramStructure("Echipa dezvoltare", "Echipa programatori");
+		OrganigramStructure devTeam = 
+				new OrganigramStructure("Dev team", "Programmers team");
 		
 		//add employees in team
-		echipaDezvoltare.addChildNode(new Employee("Popescu", "programator"));
-		echipaDezvoltare.addChildNode(new Employee("Ionescu", "programator"));
+		devTeam.addChildNode(new Employee("Popescu", "Software Eng"));
+		devTeam.addChildNode(new Employee("Ionescu", "Software Eng"));
 		
 		//add child nodes
-		departamentIT.addChildNode(new Employee("Ion", "Manager departament"));
-		departamentIT.addChildNode(echipaDezvoltare);
+		departamentIT.addChildNode(new Employee("John", "Department Manager"));
+		departamentIT.addChildNode(devTeam);
 		
 		//display structure
 		System.out.println(departamentIT.getInfo());

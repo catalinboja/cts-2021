@@ -3,14 +3,14 @@ package ro.ase.cts;
 
 //Client context
 public class CaracterContext {
-	private final int pozitieText;
+	private final int textLocation;
 	
-	public CaracterContext(int pozitie){
-		this.pozitieText = pozitie;
+	public CaracterContext(int location){
+		this.textLocation = location;
 	}
 	
-	public int getPozitie(){
-		return this.pozitieText;
+	public int getLocation(){
+		return this.textLocation;
 	}
 
 }
