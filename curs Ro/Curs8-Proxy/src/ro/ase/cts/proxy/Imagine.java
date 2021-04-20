@@ -1,6 +1,5 @@
 package ro.ase.cts.proxy;
 
-//test git
 
 public class Imagine implements InterfataImagine{
 
