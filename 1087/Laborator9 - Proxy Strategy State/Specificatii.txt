@@ -1,0 +1,14 @@
+1. Adaugarea unui filtru suplimentar pentru login
+- in acest moment login-ul se face prin username si parola si in cazul in care parola este gresita utilizatorul poate incerca de mai multe ori
+- exista atacuri asupra conturilor jucatorilor iar atacatorul ghiceste parola aferenta contului dupa mai multe incercari
+- se doreste modificarea modulului de login prin limitarea numarului de incercari la maxim 3
+- modulul de login existent trebuie modificat fara a intrerupe jocul
+
+2. In functie de implicarea in joc (timp petrecut, activitate in timpul jocului, etc) jucatorii primesc puncte bonus. 
+Aceasta strategie este stabilita de departamentul de marketing si se modifica in functie de alte campanii, perioada anului, etc.
+Sa se gaseasca o solutie care sa permita:
+- modificarea strategiei de acordare a bonusului la runtime fara a modifica implementarea jocului
+
+3. Comportamentul caracterul este influentat de stare lui
+- daca acesta este ranit miscarile sunt afectate
+- daca este afectat de actiunile magice ale celorlalte caractere, actiunile acestuia (modul in care ataca, se apara) sunt afectate
