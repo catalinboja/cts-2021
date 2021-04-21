@@ -15,7 +15,7 @@ public class DecoratorScut extends DecoratorCaracter{
 	public void esteLovit(int puncte) {
 		int puncteLovitura = puncte - this.nivelScut;
 		if(puncteLovitura > 0)
-			super.caracter.esteLovit(puncteLovitura);
+			this.caracter.esteLovit(puncteLovitura);
 	}
 
 }

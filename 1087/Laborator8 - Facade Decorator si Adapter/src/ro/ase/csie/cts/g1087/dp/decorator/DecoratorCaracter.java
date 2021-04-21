@@ -25,6 +25,11 @@ public abstract class DecoratorCaracter extends ACMECaracterJoc{
 	public void seVindeca(int puncte) {
 		this.caracter.seVindeca(puncte);
 	}
-	
-	
+
+	//cauza bug
+	@Override
+	public int getPuncteViata() {
+		return this.caracter.getPuncteViata();
+	}
+
 }
