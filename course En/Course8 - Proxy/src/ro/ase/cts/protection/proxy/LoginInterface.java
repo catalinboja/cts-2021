@@ -1,4 +1,4 @@
-package ro.ase.cts.proxy2;
+package ro.ase.cts.protection.proxy;
 
 public interface LoginInterface {
 	

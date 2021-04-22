@@ -1,0 +1,17 @@
+1. Pentru a gestiona eficient (din punct de vedere al memoriei) scenariile in care jucatorii interactioneaza cu mai multe caractere controlate de calculator
+- colectia de caractere coordonate de calculator contine elemente de acelasi fel (aceleasi modele 3D)
+- spatiul ocupat de un model 3D este semnificativ
+- generarea unui astfel de scenariu necesita un spatiu semnificativ de memorie pentru client
+- modelele 3D sunt afisate pe ecran la coordonate diferite si pot avea texturi de culori diferite
+- trebuie gasita o solutie eficienta privind gestiunea acestor situatii
+
+2. Adaugarea unui filtru suplimentar pentru login
+- in acest moment login-ul se face prin username si parola si in cazul in care parola este gresita utilizatorul poate incerca de mai multe ori
+- exista atacuri asupra conturilor jucatorilor iar atacatorul ghiceste parola aferenta contului dupa mai multe incercari
+- se doreste modificarea modulului de login prin limitarea numarului de incercari la maxim 3
+- modulul de login existent trebuie modificat fara a intrerupe jocul
+
+3. In functie de implicarea in joc (timp petrecut, activitate in timpul jocului, etc) jucatorii primesc puncte bonus. 
+Aceasta strategie este stabilita de departamentul de marketing si se modifica in functie de alte campanii, perioada anului, etc.
+Sa se gaseasca o solutie care sa permita:
+- modificarea strategiei de acordare a bonusului la runtime fara a modifica implementarea jocului

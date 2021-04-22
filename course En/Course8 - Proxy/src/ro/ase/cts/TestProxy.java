@@ -1,11 +1,11 @@
 package ro.ase.cts;
 
-import ro.ase.cts.proxy.Image;
-import ro.ase.cts.proxy.ImageInterface;
-import ro.ase.cts.proxy.ImageProxy;
-import ro.ase.cts.proxy2.LoginInterface;
-import ro.ase.cts.proxy2.Login;
-import ro.ase.cts.proxy2.SecureLoginProxy;
+import ro.ase.cts.protection.proxy.Login;
+import ro.ase.cts.protection.proxy.LoginInterface;
+import ro.ase.cts.protection.proxy.SecureLoginProxy;
+import ro.ase.cts.virtual.proxy.Image;
+import ro.ase.cts.virtual.proxy.ImageInterface;
+import ro.ase.cts.virtual.proxy.ImageProxy;
 
 public class TestProxy {
 

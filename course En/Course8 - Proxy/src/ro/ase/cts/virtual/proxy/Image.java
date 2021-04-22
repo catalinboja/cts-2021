@@ -1,4 +1,4 @@
-package ro.ase.cts.proxy;
+package ro.ase.cts.virtual.proxy;
 
 //test git
 
