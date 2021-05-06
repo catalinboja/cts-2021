@@ -8,7 +8,7 @@ public class Editor {
 		currentState = new StyleNormal();
 	}
 	
-	public void selectBoldOption() {
+	public void selectFirstWordBoldOption() {
 		this.currentState = new StyleFirstWordBold(this);
 	}
 	

@@ -11,10 +11,10 @@ public class Cook {
 	}
 	
 	public void preparaPizza(String tipPizza){
-		System.out.println("A fost preparata o pizza de tip "+tipPizza);
+		System.out.println("Prepare a pizza: "+tipPizza);
 	}
 	
 	public void prepareSoup(String soupType){
-		System.out.println("A fost facuta o supa de tip "+soupType);
+		System.out.println("Prepare a soup: "+soupType);
 	}
 }

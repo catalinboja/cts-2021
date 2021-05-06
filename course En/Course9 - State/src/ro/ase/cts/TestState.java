@@ -7,12 +7,11 @@ public class TestState {
 	
 		editor.print("Hello World !");
 		
-		editor.selectBoldOption();
+		editor.selectFirstWordBoldOption();
 		
 		editor.print("Hello World Java!");
 		
-		editor.selectItalicOption();
+		editor.print("Hello World !");
 		
-		editor.print("Hello !");
 	}
 }

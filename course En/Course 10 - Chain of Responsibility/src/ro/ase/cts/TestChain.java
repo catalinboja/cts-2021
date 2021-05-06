@@ -2,20 +2,23 @@ package ro.ase.cts;
 
 public class TestChain {
 	public static void main(String[] args){
-		MessageProcessor mp = new MessageProcessor();
-		HighPriorityProcessor highp = new HighPriorityProcessor();
-		MaximumPriorityProcessor maxp = new MaximumPriorityProcessor();
+		Handler mp = new MessageProcessor();
+		Handler highp = new HighPriorityProcessor();
+		Handler maxp = new MaximumPriorityProcessor();
+		Handler firep = new FireAlarmProcessor();
 		
 		maxp.setSuccessor(highp);
+	
 		highp.setSuccessor(mp);
+		firep.setSuccessor(maxp);
 		
 		Message m1 = new Message("Fire alarm !",200);
 		Message m2 = new Message("Open door at office 302 !",50);
 		Message m3 = new Message("Security test !",78);
 		
-		maxp.manageRequest(m1);
-		maxp.manageRequest(m2);
-		maxp.manageRequest(m3);
+		firep.manageRequest(m1);
+		firep.manageRequest(m2);
+		firep.manageRequest(m3);
 		
 	}
 }
