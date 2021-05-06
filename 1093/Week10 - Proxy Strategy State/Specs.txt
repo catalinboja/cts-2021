@@ -5,12 +5,13 @@
 - the existing login module must be modified without interrupting the game
 
 
-2. Game characters actions are affected by their state
+2. Depending on the involvement in the game (time spent, activity during the game, etc.) players receive bonus points.
+This strategy is established by the marketing department and changes depending on other campaigns, time of year, etc.
+Find a solution that allows:
+- modifying the strategy for granting the runtime bonus without modifying the implementation of the game. It is considered that currently there are 3 strategies / ways to grant the bonus.
+
+3. Game characters actions are affected by their state
 - the gameplay is different
 - the action effects are different
 - the way the superhero moves is affected by its state (lifepoints)
 
-3. Depending on the involvement in the game (time spent, activity during the game, etc.) players receive bonus points.
-This strategy is established by the marketing department and changes depending on other campaigns, time of year, etc.
-Find a solution that allows:
-- modifying the strategy for granting the runtime bonus without modifying the implementation of the game. It is considered that currently there are 3 strategies / ways to grant the bonus.
