@@ -33,6 +33,7 @@ public class TestDecorator {
 		dragon2.move();
 		dragon2.takeAHit(200);
 		dragon2.heal(100);
+		
 	}
 
 }
