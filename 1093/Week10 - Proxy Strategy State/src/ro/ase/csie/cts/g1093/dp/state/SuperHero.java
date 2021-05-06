@@ -15,7 +15,7 @@ public class SuperHero {
 		super();
 		this.name = name;
 		this.lifePoints = lifePoints;
-		this.moveState = new NormalState();
+		//this.moveState = new NormalState();
 	}
 
 
