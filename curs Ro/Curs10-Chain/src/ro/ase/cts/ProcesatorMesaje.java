@@ -6,5 +6,9 @@ public class ProcesatorMesaje extends Handler{
 		if (mesaj.getPrioritate() <= 50){
 			System.out.println("\n Mesaj: "+mesaj.getText());
 		}
+		
+		if(this.succesor != null) {
+			this.succesor.gestioneazaCerere(mesaj);
+		}
 	}
 }
