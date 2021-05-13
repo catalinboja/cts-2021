@@ -2,15 +2,15 @@ package ro.ase.cts;
 
 public abstract class Tests {
 	
-	//pasii din template
+	//define the steps
 	public abstract void defineUnitTests();
 	public abstract void defineInputData();
 	public abstract void defineResults();
 	public abstract void runTests();
 	public abstract void printTestResults();
 	
-	//functie template
-	public final void testeaza(){
+	//template method
+	public final void test(){
 		defineUnitTests();
 		defineInputData();
 		defineResults();

@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public abstract class Clickable {
 	//observers collection
-	ArrayList<HandlerClick> observers = new ArrayList<HandlerClick>();
+	ArrayList<HandlerClick> observers =  new ArrayList<>();
 	
 	public void registerHandler(HandlerClick handler){
 		if(observers!=null)

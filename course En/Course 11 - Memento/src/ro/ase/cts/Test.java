@@ -5,24 +5,24 @@ public class Test {
 	public static void main(String[] args) {
 		
 		Notepad notepadApp = new Notepad();
-		TextFile fisier = new TextFile("Test.txt");
+		TextFile file = new TextFile("Test.txt");
 		
-		fisier.addText("Hello ! How are you ?");
-		fisier.addText("Where are you going ?.");
+		file.addText("Hello ! How are you ?");
+		file.addText("\nWhere are you going ?.");
 		
-		notepadApp.addSnapshot(fisier.save());
+		notepadApp.addSnapshot(file.save());
 		
-		fisier.addText("It's a fine day");
+		file.addText("It's a fine day");
 		
-		notepadApp.addSnapshot(fisier.save());
+		notepadApp.addSnapshot(file.save());
 		
-		fisier.addText("Is spring time");
+		file.addText("Is spring time");
 		
-		fisier.ctrlZ(notepadApp.recoverLastVersion());
-		fisier.ctrlZ(notepadApp.recoverLastVersion());
-		fisier.ctrlZ(notepadApp.recoverLastVersion());
+		file.ctrlZ(notepadApp.recoverLastVersion());
+		file.ctrlZ(notepadApp.recoverLastVersion());
+		//file.ctrlZ(notepadApp.recoverLastVersion());
 		
-		System.out.println(fisier.getText());
+		System.out.println(file.getText());
 		
 	}
 

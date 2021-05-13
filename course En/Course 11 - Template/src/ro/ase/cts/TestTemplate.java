@@ -7,8 +7,8 @@ public class TestTemplate {
 		NUnitTesting nUnit = new NUnitTesting();
 		JUnitTesting jUnit = new JUnitTesting();
 		
-		nUnit.testeaza();
-		jUnit.testeaza();
+		nUnit.test();
+		jUnit.test();
 	}
 
 }

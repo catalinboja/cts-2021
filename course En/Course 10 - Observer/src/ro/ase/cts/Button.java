@@ -14,7 +14,7 @@ public class Button extends Clickable{
 	}
 	
 	public void Click(){
-		System.out.println("Buton apasat");
+		System.out.println("Button clicked");
 		setClicked();
 		//sau
 		//this.notifyObservers();
