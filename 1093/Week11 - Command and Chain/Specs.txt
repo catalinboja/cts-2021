@@ -1,0 +1,11 @@
+1. The game has an internal chat and players can send messages to others
+- we want to filter comments / messages that are not appropriate; those messages will be droped and not sent
+- messages destined for a certain player will be sent in private
+- messages sent to @everyone will be broadcast messages for everyone
+
+
+2. The game client must perform tasks in the background without interfering with the development of the game (without blocking or slowing it down)
+- customer data backup
+- receive updates for the forum
+- update 3D models in silent mode (during the game)
+- a solution must be found through which these tasks can be executed without affecting the execution of the game
