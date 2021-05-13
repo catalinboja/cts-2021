@@ -1,0 +1,7 @@
+1. Clientul jocului trebuie sa efectueze sarcini in fundal fara a interfera cu derularea jocului (fara a-l bloca sau incetini)
+- backup de date client
+- primeste actualizari pentru forum
+- actualizati modele 3d
+- trebuie gasita o solutie prin care aceste task-uri sa fie executate fara a afecta executia jocului
+
+
