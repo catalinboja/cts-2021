@@ -18,6 +18,8 @@ public class Test {
 		
 		fisier.adaugaText("De primavara.");
 		
+		System.out.println(fisier.getText());
+		
 		fisier.ctrlZ(notepadApp.recupereazaUltimaSalvare());
 		fisier.ctrlZ(notepadApp.recupereazaUltimaSalvare());
 		fisier.ctrlZ(notepadApp.recupereazaUltimaSalvare());
