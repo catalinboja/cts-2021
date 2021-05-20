@@ -1,0 +1,9 @@
+1. In timpul jocului clientul poate pierde conexiunea la server (din diferite motive). Cand acest lucru se intampla, 
+diferitele module din joc trebuie sa reactioneze in consecinta
+- trebuie salvata instanta jocului pe masina clientului
+- trebuie salvate atributele caracterului
+- trebuie notificat clientul
+- trebuie reincercata conexiunea
+
+2. Jucatorii au posibilitatea sa salveze starea jocului/caracterului si sa o restaureze mai tarziu
+- jucatorul poate relua jocul dintr-un anumit punct
