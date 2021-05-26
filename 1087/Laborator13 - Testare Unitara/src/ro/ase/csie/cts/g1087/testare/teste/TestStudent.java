@@ -18,6 +18,9 @@ import ro.ase.csie.cts.g1087.testare.modele.Student;
 
 public class TestStudent {
 	
+	
+	//Test fixture
+	
 	static Student student;
 	static ArrayList<Integer> note;
 	
